@@ -1,38 +1,33 @@
 <template>
-  <div
-    class="
-      bd-header
-      head-bgcolor
-      pt-2
-      d-flex
-      align-items-stretch
-      border-bottom border-dark
-    "
-  >
-    <div
-      class="container-fluid d-flex align-items-center component-color"
-      id="app"
-    >
-      <h1 class="d-flex align-items-center fs-4 text-white mb-0">
-        <p class="m-3">
-          <router-link class="header-text-style" to="/category"
-            >カテゴリ</router-link
-          >
-        </p>
-        <p class="m-3">
-          <router-link class="header-text-style" to="/#">メンズ</router-link>
-        </p>
-        <p class="m-3">
-          <router-link class="header-text-style" to="/#"
-            >ランキング</router-link
-          >
-        </p>
-        <p class="m-3">
-          <router-link class="header-text-style" to="/#">新着</router-link>
-        </p>
+  <body>
+    <header id="header">
+      <h1 class="site-title wrapper">
+        <a href="#" class="no-text-deco">
+          <p>Photography</p>
+        </a>
       </h1>
-    </div>
-  </div>
+
+      <nav id="navi">
+        <ul class="wrapper">
+          <li>
+            <a href="#">NEW</a>
+          </li>
+          <li>
+            <a href="#">COLUMN</a>
+          </li>
+          <li>
+            <a href="#">SERIES</a>
+          </li>
+          <li>
+            <a href="#">Q&A</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
 </template>
 <script>
 export default {

@@ -1,16 +1,16 @@
-const path = require('path')
+// const path = require('path')
 // const PrerenderSPAPlugin = require('prerender-spa-plugin')
 
-module.exports = {
-  pages: {
-    index: {
-      // エントリーポイント
-      entry: 'src/main.js',
-    },
-  },
+// module.exports = {
+//   pages: {
+//     index: {
+//       // エントリーポイント
+//       entry: 'src/main.js',
+//     },
+//   },
 
-  // buildファイルの出力先
-  outputDir: 'public',
+//   // buildファイルの出力先
+//   outputDir: 'public',
   // リロード時に404になるためプリレンダリングするように対処(この方法が最適ではないと思うが一旦これで対処。。)
   // https://www.ritolab.com/entry/182
   // "npm install prerender-spa-plugin"
@@ -28,4 +28,4 @@ module.exports = {
   //     ]
   //   }
   // },
-}
+//}

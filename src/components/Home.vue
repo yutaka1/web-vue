@@ -1,14 +1,10 @@
 <template>
-  <div id="admin">
-    <Header />
-    <body>
-      <div>
-        <component :is="homeBody"></component>
-        <!-- <Category /> -->
-      </div>
-    </body>
-    <Footer />
+  <Header />
+  <div>
+    <component :is="homeBody"></component>
+    <!-- <Category /> -->
   </div>
+  <Footer />
 </template>
 <script>
 import Header from "@/components/Header.vue";
@@ -24,7 +20,7 @@ export default {
   },
   computed: {
     homeBody() {
-      console.log(this.$route.name)
+      console.log(this.$route.name);
       switch (this.$route.name) {
         case "Category":
           return "Category";
