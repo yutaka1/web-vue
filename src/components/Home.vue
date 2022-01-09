@@ -2,7 +2,6 @@
   <Header />
   <div>
     <component :is="homeBody"></component>
-    <!-- <Category /> -->
   </div>
   <Footer />
 </template>
