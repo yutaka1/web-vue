@@ -21,6 +21,7 @@ export default {
   color: #2c3e50;
 }
 
+
 body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
 }
